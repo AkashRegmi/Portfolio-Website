@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(19, 19, 37);
+  color: White;
+}
+.nav {
+  background-color: rgb(11, 40, 65);
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  padding-top: 10px;
+}
+.name-logo {
+  font-size: 28px;
+}
+.info {
+  display: flex;
+  justify-content: space-around;
+}
+.info ul {
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 12px;
+}
+.info ul li {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
