@@ -25,13 +25,33 @@
         </div>
         <div class="info">
           <ul>
-            <li>Home</li>
-            <li>About me</li>
-            <li>Projects</li>
-            <li>Contact me</li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About me</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact me</a></li>
           </ul>
         </div>
       </div>
     </header>
+    <main>
+      <section class="first-class">
+        <div class="left">
+          Hi, I’m <span style="color: rgb(174, 174, 215)">Akash Regmi👋</span>
+          <div>and i am aspiring</div>
+
+          <span id="element" style="color:rgb(174, 174, 215)"></span>
+        </div>
+        <div class="right">
+          <img class="bgimage" src="./images/bgimage.png" alt="background_image" />
+        </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer,", "Digital Marketer and ,","Student."],
+        typeSpeed: 50,
+      });
+    </script>
   </body>
 </html>

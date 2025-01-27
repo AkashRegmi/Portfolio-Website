@@ -27,7 +27,38 @@ body {
   padding-top: 12px;
 }
 .info ul li {
+  margin: 0 23px;
   display: flex;
   justify-content: space-around;
   list-style-type: none;
+}
+.info ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.info ul li a:hover {
+  color: rgb(114, 25, 202);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.first-class {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  margin: 40px 0;
+}
+.first-class > div {
+  width: 35%;
+}
+.left {
+  font-size: 2.9rem;
+  margin: 70px 0;
+}
+.right {
+  margin: 20px 0;
+}
+.bgimage {
+  width: 80%;
+
+  border-radius: 30px;
 }
