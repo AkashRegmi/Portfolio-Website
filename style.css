@@ -54,6 +54,78 @@ body {
   font-size: 2.9rem;
   margin: 70px 0;
 }
+.button {
+  display: flex;
+}
+.button .downloadresume {
+  height: 40px;
+  padding: 0 5px;
+  background-color: rgb(11, 40, 65);
+  color: white;
+  font-weight: bold;
+  border: 3px solid white;
+  border-radius: 8 px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #c5b8b8, 0 0 20px #6cc644, 0 0 30px #4078c0;
+}
+.button .downloadresume:hover {
+  background-color: rgb(74, 93, 110);
+}
+.socialmediaicon {
+  margin: 10px 50px;
+  display: flex;
+  gap: 30px;
+}
+.github,
+.Linkedin,
+.Twitter {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.6s ease-in-out;
+  
+}
+
+.github i {
+  font-size: 40px;
+
+  transition: transform 2s ease-in-out;
+}
+.Linkedin i {
+  font-size: 40px;
+
+  transition: transform 2s ease-in-out;
+}
+.Twitter i {
+  font-size: 40px;
+
+  transition: transform 2s ease-in-out;
+}
+
+/* Flip animation on hover */
+.github:hover {
+  color: rgb(95, 154, 130);
+  animation: bounce 0.8s ease-in-out;
+}
+
+.Twitter:hover {
+  color: rgb(96, 22, 186);
+  animation: bounce 0.8s ease-in-out;
+}
+.Linkedin:hover {
+  color: rgb(66, 45, 204);
+  animation: bounce 0.8s ease-in-out;
+}
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
 .right {
   margin: 20px 0;
 }
