@@ -7,14 +7,17 @@ body {
   color: White;
 }
 .nav {
-  background-color: rgb(11, 40, 65);
+  background-color: rgb(19, 19, 37);
   display: flex;
   justify-content: space-around;
   height: 50px;
   padding-top: 10px;
 }
+
 .name-logo {
-  font-size: 28px;
+  font-size: 30px;
+  font-weight: bold;
+  
 }
 .info {
   display: flex;
@@ -27,6 +30,8 @@ body {
   padding-top: 12px;
 }
 .info ul li {
+  font-size: 16px;
+  font-weight: bold;
   margin: 0 23px;
   display: flex;
   justify-content: space-around;
@@ -38,14 +43,15 @@ body {
 }
 .info ul li a:hover {
   color: rgb(114, 25, 202);
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: bold;
 }
 .first-class {
   display: flex;
   justify-content: space-around;
-  /* align-items: center; */
-  margin: 40px 0;
+
+  /* margin: 40px 0; */
+  margin: 10px 0;
 }
 .first-class > div {
   width: 35%;
@@ -55,6 +61,7 @@ body {
   margin: 70px 0;
 }
 .button {
+  margin-top: 20px;
   display: flex;
 }
 .button .downloadresume {
@@ -83,7 +90,6 @@ body {
   text-decoration: none;
   color: white;
   transition: transform 0.6s ease-in-out;
-  
 }
 
 .github i {
@@ -104,7 +110,7 @@ body {
 
 /* Flip animation on hover */
 .github:hover {
-  color: rgb(95, 154, 130);
+  color: rgb(204, 234, 222);
   animation: bounce 0.8s ease-in-out;
 }
 
@@ -128,9 +134,12 @@ body {
 
 .right {
   margin: 20px 0;
+  display: flex;
+  justify-content: center;
 }
 .bgimage {
   width: 80%;
-
-  border-radius: 30px;
+  height: 100%;
+  border-radius: 48%;
+  box-shadow: 0 0 10px #928989, 0 0 20px #6cc644, 0 0 30px #4078c0;
 }
