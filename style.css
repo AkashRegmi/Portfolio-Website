@@ -43,7 +43,7 @@ body {
   color: whitesmoke;
 }
 .info ul li a:hover {
-  color: rgb(114, 25, 202);
+  color: rgb(174, 174, 216);
   font-size: 1.4rem;
   font-weight: bold;
 }
@@ -57,11 +57,10 @@ body {
 }
 .first-class > div {
   width: 35%;
-  
 }
 .left {
-  /* font-size: 3.2rem;  paila yo thyo  */ 
-  font-size: 3.2rem; 
+  /* font-size: 3.2rem;  paila yo thyo  */
+  font-size: 3.2rem;
   margin: 70px 0;
 }
 .button {
@@ -143,23 +142,53 @@ body {
 }
 .bgimage {
   width: 90%;
-  height: 100%;
+  height: 92%;
   border-radius: 48%;
   box-shadow: 0 0 10px #928989, 0 0 20px #6cc644, 0 0 30px #4078c0;
 }
 .bgimage:hover {
-  box-shadow: 0 0 15px #b3b3b3, 0 0 25px #85e85f, 0 0 35px #5a9ded, 0 0 50px #ffffff;
-  }
+  box-shadow: 0 0 15px #b3b3b3, 0 0 25px #85e85f, 0 0 35px #5a9ded,
+    0 0 50px #ffffff;
+}
 
-.about_me{
+.about_me {
   margin-top: 48px;
 }
-.about_me h1{
+.about_me h1 {
   font-size: 30px;
   font-weight: bold;
   margin: 4px 45%;
 }
-
-.about_me .about_section{
-  display: flex;
+.about_section {
+  margin-top: 30px;
 }
+
+.about_me .about_section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about_image img {
+  height: 530px;
+  width: auto;
+  margin-left: 30px;
+  object-fit: cover;
+  border-radius: 40%;
+  box-shadow: 0 0 10px #928989, 0 0 20px #6cc644, 0 0 30px #4078c0;
+
+  /* box-shadow: 0 0 10px #928989, 0 0 20px #6cc644, 0 0 30px #4078c0; */
+}
+.about_image img:hover {
+  box-shadow: 0 0 15px #b3b3b3, 0 0 25px #85e85f, 0 0 35px #5a9ded,
+    0 0 50px #ffffff;
+}
+.content {
+  margin-left: 60px;
+  font-size: 1.9rem;
+  line-height: 3rem;
+}
+.content p {
+  font-size: 37px;
+  font-family: "Times New Roman", Times, serif;
+}
+/* ---------------------------------------------------------------------- */
