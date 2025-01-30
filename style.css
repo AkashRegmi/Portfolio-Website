@@ -141,9 +141,11 @@ body {
   justify-content: center;
 }
 .bgimage {
-  width: 90%;
-  height: 92%;
-  border-radius: 48%;
+  /* width: 90%;  yo change */ 
+  width: auto;
+  height: 92%;  
+
+  border-radius: 40%;
   box-shadow: 0 0 10px #928989, 0 0 20px #6cc644, 0 0 30px #4078c0;
 }
 .bgimage:hover {
@@ -155,9 +157,9 @@ body {
   margin-top: 48px;
 }
 .about_me h1 {
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
-  margin: 4px 45%;
+  margin: 4px 42%;
 }
 .about_section {
   margin-top: 30px;
@@ -192,3 +194,46 @@ body {
   font-family: "Times New Roman", Times, serif;
 }
 /* ---------------------------------------------------------------------- */
+.Project{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 40px 45%;
+}
+.weather_App, .Chatbot,.Typing_speed {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.my_projects{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
