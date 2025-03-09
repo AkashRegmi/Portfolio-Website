@@ -62,6 +62,7 @@ body {
 }
 .first-class {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 
   /* margin: 40px 0; */
@@ -397,4 +398,121 @@ footer {
 .copyright {
   font-size: 14px;
   margin-top: 5px;
+}
+
+
+
+
+
+/* ----------- Responsive Navbar (Hamburger Menu) ----------- */
+.hamburger {
+  display: none; /* Hidden on larger screens */
+}
+
+/* Show only when screen is below 620px */
+@media screen and (max-width: 620px) {
+  .hamburger {
+    display: block; /* Make visible */
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+  }
+
+  .info ul {
+    display: none; /* Initially hidden */
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: rgb(19, 19, 37);
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .info ul.show {
+    display: flex; /* Show menu when class added */
+  }
+}
+
+
+
+/* ----------- Responsive Hero Section ----------- */
+@media screen and (max-width: 620px) {
+  .first-class {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+    text-align: center;
+    height: auto;
+    margin: 20px 0;
+  }
+
+  .first-class > div {
+    width: 90%; /* Make sections take full width */
+  }
+
+  .left {
+    font-size: 2rem; /* Reduce heading size */
+    margin: 20px 0;
+  }
+
+  #element {
+    font-size: 1.8rem;
+  }
+
+  .button {
+    justify-content: center;
+  }
+
+  .right {
+    margin-top: 20px;
+  }
+
+  .bgimage {
+    width: 80%; /* Make image responsive */
+    height: auto;
+    border-radius: 50%;
+  }
+}
+
+
+/* ----------- Responsive About & Projects Sections ----------- */
+@media screen and (max-width: 620px) {
+  .about_me .about_section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about_image img {
+    height: 300px;
+    width: auto;
+  }
+
+  .content {
+    margin-left: 0;
+    padding: 10px;
+    font-size: 1.5rem;
+  }
+
+  .my_projects {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .my_projects div {
+    margin-bottom: 20px;
+  }
+}
+
+/* ----------- Responsive Contact & Footer ----------- */
+@media screen and (max-width: 620px) {
+  .contact-container {
+    width: 90%;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    text-align: center;
+  }
 }
