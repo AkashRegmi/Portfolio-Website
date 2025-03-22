@@ -1,5 +1,4 @@
 
-
   document.addEventListener("DOMContentLoaded", function () {
     const menu = document.querySelector(".info ul");
     const hamburger = document.querySelector(".hamburger");

@@ -219,7 +219,7 @@ margin-top: 80px;
   margin: 40px 45%;
 }
 .weather_App,
-.Chatbot,
+.KnowYourCountry,
 .Typing_speed {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
@@ -259,9 +259,10 @@ a:hover {
   height: 335px;
   border-radius: 20%;
 }
-.Chatbot img {
+.KnowYourCountry img {
   width: 320px;
-  height: 335px;
+  height: 336px;
+  /* margin-top: 10px; */
   border-radius: 20%;
 }
 .Typing_speed img {
