@@ -9,22 +9,21 @@ html {
 body {
   background-color: rgb(19, 19, 37);
   color: White;
-  margin-top: 80px; 
+  margin-top: 80px;
 }
 .nav {
   background-color: rgb(19, 19, 37);
-  
+
   display: flex;
   justify-content: space-around;
   height: 80px;
   padding-top: 10px;
-  
-  position: fixed;  
-  top: 0;           
-  left: 0;          
-  width: 100%;      
-  z-index: 1000;    
 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 .name-logo {
@@ -210,14 +209,16 @@ body {
 }
 /* ---------------------------------------------------------------------- */
 .projects {
-margin-top: 80px;
+  margin-top: 80px;
 }
 .Project {
   text-align: center;
-  margin-top: 50px;
+  /* margin-top: 120px; */
   font-size: 50px;
   font-weight: bold;
-  margin: 40px 45%;
+  /* margin: 40px 42%; */
+  margin-top: 120px;
+  margin-bottom: 60px;
 }
 .weather_App,
 .KnowYourCountry,
@@ -402,10 +403,6 @@ footer {
   margin-top: 5px;
 }
 
-
-
-
-
 /* ----------- Responsive Navbar (Hamburger Menu) ----------- */
 .hamburger {
   display: none; /* Hidden on larger screens */
@@ -414,7 +411,7 @@ footer {
 /* Show only when screen is below 620px */
 @media screen and (max-width: 620px) {
   .hamburger {
-    display: block; /* Make visible */
+    display: block;
     font-size: 30px;
     cursor: pointer;
     color: white;
@@ -422,7 +419,7 @@ footer {
   }
 
   .info ul {
-    display: none; /* Initially hidden */
+    display: none;
     flex-direction: column;
     position: absolute;
     top: 60px;
@@ -438,10 +435,8 @@ footer {
   }
 }
 
-
-
 /* ----------- Responsive Hero Section ----------- */
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 740px) {
   .first-class {
     flex-direction: column; /* Stack elements vertically */
     align-items: center;
@@ -478,9 +473,8 @@ footer {
   }
 }
 
-
 /* ----------- Responsive About & Projects Sections ----------- */
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 740px) {
   .about_me .about_section {
     flex-direction: column;
     text-align: center;
@@ -496,6 +490,10 @@ footer {
     padding: 10px;
     font-size: 1.5rem;
   }
+  .Project {
+    text-align: center;
+    margin-left: 220px;
+  }
 
   .my_projects {
     flex-direction: column;
@@ -508,7 +506,7 @@ footer {
 }
 
 /* ----------- Responsive Contact & Footer ----------- */
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 740px) {
   .contact-container {
     width: 90%;
   }
