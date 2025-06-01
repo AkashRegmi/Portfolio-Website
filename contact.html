@@ -3,8 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Me</title>
+    <title>Contact Akash Regmi | Web Developer & AI Student</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/AkashRegmilogo.png"
+      type="image/x-icon"
+    />
   </head>
   <body>
     <header>
@@ -13,66 +26,163 @@
           <p class="name">Akash Regmi</p>
         </div>
         <div class="info">
+          <div class="hamburger">☰</div>
           <ul>
             <li><a href="index.html#home">Home</a></li>
             <li><a href="index.html#About_me">About me</a></li>
+            <li><a href="index.html#skills">Skills</a></li>
             <li><a href="index.html#projects">Projects</a></li>
-            <li><a href="contact.html">Contact me</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
           </ul>
         </div>
       </div>
     </header>
-    <section class="contact-section">
-      <h1>Contact Me</h1>
+
+    <section class="contact-section animate__animated animate__fadeIn">
       <div class="contact-container">
-        <form action="https://formspree.io/f/mpwqrrol" method="POST">
-          <div class="input-group">
-            <label for="name">Full Name</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="Roman Cena"
-              required
-            />
-          </div>
+        <div class="contact-header">
+          <h1 class="section-title">Get In Touch</h1>
+          <p class="contact-subtitle">
+            Have a project in mind or want to collaborate? Send me a message!
+          </p>
+        </div>
 
-          <div class="input-group">
-            <label for="email">Email Address</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="example@example.com"
-              required
-            />
-          </div>
+        <div class="contact-content">
+          <form
+            action="https://formspree.io/f/mpwqrrol"
+            method="POST"
+            class="contact-form"
+          >
+            <div class="form-group animate__animated animate__fadeInLeft">
+              <div class="input-group">
+                <label for="name">Full Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your name"
+                  required
+                />
+                <i class="fas fa-user"></i>
+              </div>
+            </div>
 
-          <div class="input-group">
-            <label for="subject">Subject</label>
-            <input
-              type="text"
-              id="subject"
-              name="subject"
-              placeholder="Subject Matter"
-              required
-            />
-          </div>
+            <div class="form-group animate__animated animate__fadeInRight">
+              <div class="input-group">
+                <label for="email">Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="your.email@example.com"
+                  required
+                />
+                <i class="fas fa-envelope"></i>
+              </div>
+            </div>
 
-          <div class="input-group">
-            <label for="message">Message</label>
-            <textarea
-              id="message"
-              name="message"
-              rows="5"
-              placeholder="I am writting this message .........."
-              required
-            ></textarea>
-          </div>
+            <div class="form-group animate__animated animate__fadeInLeft">
+              <div class="input-group">
+                <label for="subject">Subject</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="What's this about?"
+                  required
+                />
+                <i class="fas fa-tag"></i>
+              </div>
+            </div>
 
-          <button type="submit" class="send-btn">Send Message</button>
-        </form>
+            <div class="form-group animate__animated animate__fadeInRight">
+              <div class="input-group">
+                <label for="message">Your Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="6"
+                  placeholder="I'd love to hear about..."
+                  required
+                ></textarea>
+                <i class="fas fa-comment-dots"></i>
+              </div>
+            </div>
+
+            <button
+              type="submit"
+              class="send-btn animate__animated animate__fadeInUp"
+            >
+              <span>Send Message</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+
+          <div class="contact-info animate__animated animate__fadeIn">
+            <div class="info-card">
+              <div class="info-icon">
+                <i class="fas fa-envelope-open-text"></i>
+              </div>
+              <div class="info-content">
+                <h3>Email Me</h3>
+                <p>akashregmi82@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="info-content">
+                <h3>Location</h3>
+                <p>Kathmandu, Nepal</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">
+                <i class="fas fa-share-alt"></i>
+              </div>
+              <div class="info-content">
+                <h3>Social Media</h3>
+                <div class="social-links">
+                  <a href="https://github.com/AkashRegmi" target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/in/akash-regmi-26123a318/"
+                    target="_blank"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                  <a href="https://twitter.com/home" target="_blank"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a
+                    href="https://www.instagram.com/akaashregmi"
+                    target="_blank"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
+
+    <script>
+      // Mobile menu toggle
+      document
+        .querySelector(".hamburger")
+        .addEventListener("click", function () {
+          document.querySelector(".info ul").classList.toggle("show");
+        });
+
+      // Form animation on load
+      const formGroups = document.querySelectorAll(".form-group");
+      formGroups.forEach((group, index) => {
+        group.style.animationDelay = `${index * 0.2}s`;
+      });
+    </script>
   </body>
 </html>
