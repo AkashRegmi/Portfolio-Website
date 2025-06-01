@@ -4,14 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Akash Regmi | Web Developer & AI Student</title>
-      <!-- SEO Meta Tags -->
-  <meta name="description" content="Portfolio of Akash Regmi — a passionate web developer and AI enthusiast specializing in building accessible, user-friendly websites and modern web apps." />
-  <meta name="keywords" content="Akash Regmi, Web Developer, React Developer, AI, Portfolio, Frontend Developer, JavaScript, Projects, Nepal Developer" />
-  <meta name="author" content="Akash Regmi" />
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Portfolio of Akash Regmi — a passionate web developer and AI enthusiast specializing in building accessible, user-friendly websites and modern web apps."
+    />
+    <meta
+      name="keywords"
+      content="Akash Regmi, Web Developer, React Developer, AI, Portfolio, Frontend Developer, JavaScript, Projects, Nepal Developer"
+    />
+    <meta name="author" content="Akash Regmi" />
 
-  <!-- Open Graph (for social sharing) -->
-  <meta property="og:title" content="Akash Regmi | Web Developer Portfolio" />
-  <meta property="og:description" content="Explore Akash Regmi’s portfolio — a Computer Science student and developer building modern web applications." />
+    <!-- Open Graph (for social sharing) -->
+    <meta property="og:title" content="Akash Regmi | Web Developer Portfolio" />
+    <meta
+      property="og:description"
+      content="Explore Akash Regmi's portfolio — a Computer Science student and developer building modern web applications."
+    />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,7 +30,11 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
 
     <link rel="stylesheet" href="style.css" />
@@ -38,10 +51,12 @@
           <p class="name">Akash Regmi</p>
         </div>
         <div class="info">
-          <div class="hamburger">☰</div> <!-- Hamburger icon -->
+          <div class="hamburger">☰</div>
+          <!-- Hamburger icon -->
           <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#About_me">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="contact.html">Contact me</a></li>
           </ul>
@@ -51,138 +66,373 @@
     <main>
       <section id="home" class="first-class">
         <div class="left">
-          Hi, I’m <span style="color: rgb(174, 174, 215)">Akash Regmi👋</span>
-          <div>and i am aspiring</div>
-
-          <span id="element" style="color: rgb(175, 175, 215)"></span>
-          <p style="font-size:25px;margin-top:30px">A Web-developer passionate about building accessible and user friendly websites.</p>
+          <div class="intro-text">
+            <span class="greeting">Hi, I'm</span>
+            <span class="name-highlight animate__animated animate__fadeIn"
+              >Akash Regmi</span
+            >
+            <span class="emoji">👋</span>
+            <div class="role">and I am an aspiring</div>
+            <span id="element" class="typing-animation"></span>
+          </div>
+          <p class="description">
+            A Web-developer passionate about building accessible and user
+            friendly websites.
+          </p>
           <div class="button">
             <a
               href="./images/Akash Regmi Resume.pdf"
               download="Akash_Regmi_Resume.pdf"
-              ><button class="downloadresume">Download CV</button></a
+              ><button
+                class="downloadresume animate__animated animate__pulse animate__infinite"
+              >
+                Download CV
+              </button></a
             >
             <div class="socialmediaicon">
               <a
                 class="github"
                 href="https://github.com/AkashRegmi"
                 target="_blank"
-                ><i class="fa fa-github" style="font-size: 40px"></i
+                ><i class="fab fa-github"></i
               ></a>
               <a
                 class="Linkedin"
                 href="https://www.linkedin.com/in/akash-regmi-26123a318/"
                 target="_blank"
-                ><i class="fa fa-linkedin-square" style="font-size: 40px"></i
+                ><i class="fab fa-linkedin"></i
               ></a>
               <a class="Twitter" href="https://x.com/home" target="_blank"
-                ><i class="fa fa-twitter" style="font-size: 40px"></i
+                ><i class="fab fa-twitter"></i
               ></a>
+              <a
+                class="Instagram"
+                href="https://www.instagram.com/akaashregmi"
+                target="_blank"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
             </div>
           </div>
         </div>
         <div class="right">
-          <img
-            class="bgimage"
+          <!-- <img
+            class="bgimage animate__animated animate__fadeInRight"
             src="./images/Akash_Regmi.png"
             alt="Portrait of Akash Regmi - Web Developer"
-          />
+          /> -->
+          <div class="bgimage-wrapper">
+  <img class="bgimage animate__animated animate__fadeInRight" src="./images/Akash_Regmi.png" />
+</div>
+
         </div>
       </section>
+
       <section id="About_me" class="about_me">
-        <h1 style="color: white ">About Me</h1>
+        <h1 class="section-title">About Me</h1>
         <div class="about_section">
           <div class="about_image">
-            <img src="./images/Akash Regmi_about_me.png" alt="Akash Regmi - Web Developer from Nepal" />
+            <!-- <img
+              src="./images/Akash Regmi_about_me.png"
+              alt="Akash Regmi - Web Developer from Nepal"
+              class="animate__animated animate__fadeInLeft"
+            /> -->
+            <div class="bgimage-wrapper">
+    <img
+      src="./images/Akash Regmi_about_me.png"
+      alt="Akash Regmi - Web Developer from Nepal"
+      class="bgimage animate__animated animate__fadeInLeft"
+    />
+  </div>
           </div>
-          <div class="content">
+          <div class="content animate__animated animate__fadeInRight">
             <p>
-              Hi, My name is
-               <strong > Akash Regmi.</strong> I am a
-              third Year
-              <strong > Computer Science Student</strong>
-              
-              with major in <strong>Artificial Intelligence.</strong>
-              
-               I'm a passionate <strong>Web Developer</strong> based in Nepal who loves 
-              crafting user-friendly, accessible, and responsive websites that deliver real-world impact.
-              <br /><br />
-              I have a strong interest in emerging technologies and problem-solving. I enjoy transforming ideas into digital 
-              experiences and continuously learning new tools and frameworks in the world of web development.
+              Hi, My name is <strong class="highlight">Akash Regmi.</strong> I
+              am a third Year
+              <strong class="highlight">Computer Science Student</strong> with
+              major in
+              <strong class="highlight">Artificial Intelligence.</strong>
             </p>
-            <p style="margin-top: 20px;">
-              Feel free to <a href="#projects" style="color: hwb(262 12% 7%);">explore my projects</a> or 
-              <a href="contact.html" style="color: hwb(262 12% 7%);">get in touch</a> — I'd love to collaborate or help with your next big idea!
+            <p>
+              I'm a passionate
+              <strong class="highlight">Web Developer</strong> based in Nepal
+              who loves crafting user-friendly, accessible, and responsive
+              websites that deliver real-world impact.
             </p>
-            
+            <p>
+              I have a strong interest in emerging technologies and
+              problem-solving. I enjoy transforming ideas into digital
+              experiences and continuously learning new tools and frameworks in
+              the world of web development.
+            </p>
+            <p class="cta">
+              Feel free to
+              <a href="#projects" class="link">explore my projects</a> or
+              <a href="contact.html" class="link">get in touch</a> — I'd love to
+              collaborate or help with your next big idea!
+            </p>
           </div>
         </div>
-      </section> 
-
-
-      
-      <!-- <h1 class="Project" style="color: rgb(174, 174, 216)">Projects</h1> -->
-      <section  id="projects"   class="projects">
-        <h1 class="Project" style="color: white">Projects</h1>
-        <div class="my_projects">
-          <div class="weather_App">
-            <img src="./images/cover.avif" alt="weather_logo" style="width: 100%" />
-            <h1>Weather App</h1>
-            
-            <p>I developed a Weather app using React and the OpenWeather API, allowing users to check real-time weather updates efficiently. ☁️</p>
-  
-            <p><a href="https://github.com/AkashRegmi/Weather-App" target="_blank"><button> Github</button></a></p>
-            </div>
-            <div class="KnowYourCountry">
-              <img src="images/Know your country.webp" alt="KnowYourCountry_logo" style="width: 100%" />
-              <h1>KnowYourCountry</h1>
-              
-              <p>KnowYourCountry is a web app that provides detailed information about countries, including geography, population, economy, and culture.🌍</p>
-    
-              <p><a href="https://github.com/AkashRegmi/KnowYourCountry" target="_blank"><button>Github</button></a></p>
-              </div>
-              <div class="Typing_speed">
-                <img src="./images/Typing speed.png" alt="speedtyping_logo" style="width: 100%" />
-                <h1>Typing Speed Traker</h1>
-                
-                <p>I developed a speed tracker using React, leveraging the useState and useEffect hooks to monitor and display speed changes dynamically. ⌨️💬</p>
-      
-                <p><a href="https://github.com/AkashRegmi/Speed-Tracker" target="_blank"><button> Github</button></a></p>
-                </div>
-                
-          </div>
-        </div>
-      
-       
       </section>
-      <footer>
-        <div id="footer" class="footer-container">
-            <div class="footer-links">
-                <a href="#home">Home</a>
-                <a href="#About_me">About Me</a>
-                <a href="#projects">Projects</a>
-                <a href="contact.html">Contact Me</a>
-                <!-- <a href="https://www.instagram.com/akaashregmi?igsh=ZzE2bGdidjE4MWIz&utm_source=qr" target="_blank">Instagram</a> -->
+
+      <section id="skills" class="skills-section">
+        <h1 class="section-title">My Skills</h1>
+        <div class="skills-container">
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>HTML</span>
+              <span>100%</span>
             </div>
-            <p class="copyright">© 2025 Akash Regmi. All Rights Reserved.</p>
+            <div class="skill-bar">
+              <div class="skill-level html"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>CSS</span>
+              <span>80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-level css"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>JavaScript</span>
+              <span>70%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-level js"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>React</span>
+              <span>50%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-level react"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Node.js/Express</span>
+              <span>50%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-level express"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>REST API</span>
+              <span>50%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-level api"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Java</span>
+              <span>40%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-level java"></div>
+            </div>
+          </div>
         </div>
-    </footer>
-    
-    
+      </section>
+
+      <section id="projects" class="projects">
+        <h1 class="section-title">Projects</h1>
+        <div class="my_projects">
+          <div class="project-card animate__animated animate__fadeInUp">
+            <img src="./images/cover.avif" alt="weather_logo" />
+            <div class="project-content">
+              <h1>Weather App</h1>
+              <p>
+                I developed a Weather app using React and the OpenWeather API,
+                allowing users to check real-time weather updates efficiently.
+                ☁️
+              </p>
+              <div class="project-tech">
+                <span>React</span>
+                <span>API</span>
+                <span>CSS</span>
+              </div>
+              <a
+                href="https://github.com/AkashRegmi/Weather-App"
+                target="_blank"
+                class="project-link"
+                >View Project <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <div
+            class="project-card animate__animated animate__fadeInUp animate__delay-1s"
+          >
+            <img
+              src="images/Know your country.webp"
+              alt="KnowYourCountry_logo"
+            />
+            <div class="project-content">
+              <h1>KnowYourCountry</h1>
+              <p>
+                KnowYourCountry is a web app that provides detailed information
+                about countries, including geography, population, economy, and
+                culture.🌍
+              </p>
+              <div class="project-tech">
+                <span>JavaScript</span>
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+              <a
+                href="https://github.com/AkashRegmi/KnowYourCountry"
+                target="_blank"
+                class="project-link"
+                >View Project <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <div
+            class="project-card animate__animated animate__fadeInUp animate__delay-2s"
+          >
+            <img src="./images/Typing speed.png" alt="speedtyping_logo" />
+            <div class="project-content">
+              <h1>Typing Speed Tracker</h1>
+              <p>
+                I developed a speed tracker using React, leveraging the useState
+                and useEffect hooks to monitor and display speed changes
+                dynamically. ⌨️💬
+              </p>
+              <div class="project-tech">
+                <span>React</span>
+                <span>Hooks</span>
+                <span>CSS</span>
+              </div>
+              <a
+                href="https://github.com/AkashRegmi/Speed-Tracker"
+                target="_blank"
+                class="project-link"
+                >View Project <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer-container">
+          <div class="footer-content">
+            <div class="footer-about">
+              <h3>Akash Regmi</h3>
+              <p>
+                Web Developer & AI Student passionate about creating digital
+                experiences that matter.
+              </p>
+            </div>
+            <div class="footer-links">
+              <h3>Quick Links</h3>
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#About_me">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+              </ul>
+            </div>
+            <div class="footer-contact">
+              <h3>Connect With Me</h3>
+              <div class="social-links">
+                <a href="https://github.com/AkashRegmi" target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/in/akash-regmi-26123a318/"
+                  target="_blank"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <a href="https://x.com/home" target="_blank"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                 <a href="https://www.instagram.com/akaashregmi" target="_blank"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>&copy; 2025 Akash Regmi. All Rights Reserved.</p>
+          </div>
+        </div>
+      </footer>
     </main>
+
     <script src="index.js"></script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-
-
     <script>
       var typed = new Typed("#element", {
         strings: [
-          "Web Developer,",
-          "Digital Marketer,",
-          "and Graphic Designer.",
+          "Web Developer",
+          "AI Enthusiast",
+          "Digital Marketer",
+          "and Graphic Designer",
         ],
         typeSpeed: 50,
+        backSpeed: 30,
+        loop: true,
+        showCursor: true,
+        cursorChar: "|",
+        autoInsertCss: true,
       });
+
+      // Hamburger menu functionality
+      document
+        .querySelector(".hamburger")
+        .addEventListener("click", function () {
+          document.querySelector(".info ul").classList.toggle("show");
+        });
+
+      // Smooth scrolling for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+          });
+
+          // Close mobile menu if open
+          if (window.innerWidth <= 768) {
+            document.querySelector(".info ul").classList.remove("show");
+          }
+        });
+      });
+
+      // Animation on scroll
+      function animateOnScroll() {
+        const elements = document.querySelectorAll(".animate__animated");
+
+        elements.forEach((element) => {
+          const elementPosition = element.getBoundingClientRect().top;
+          const screenPosition = window.innerHeight / 1.2;
+
+          if (elementPosition < screenPosition) {
+            const animationClass = element.classList[1];
+            element.classList.add(animationClass);
+          }
+        });
+      }
+
+      window.addEventListener("scroll", animateOnScroll);
+      window.addEventListener("load", animateOnScroll);
     </script>
   </body>
 </html>
