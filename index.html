@@ -122,9 +122,11 @@
             alt="Portrait of Akash Regmi - Web Developer"
           /> -->
           <div class="bgimage-wrapper">
-  <img class="bgimage animate__animated animate__fadeInRight" src="./images/Portfolio.jpg" />
-</div>
-
+            <img
+              class="bgimage animate__animated animate__fadeInRight"
+              src="./images/Portfolio.jpg"
+            />
+          </div>
         </div>
       </section>
 
@@ -132,14 +134,13 @@
         <h1 class="section-title">About Me</h1>
         <div class="about_section">
           <div class="about_image">
-           
             <div class="bgimage-wrapper">
-    <img
-      src="./images/Akash_Regmi.png"
-      alt="Akash Regmi - Web Developer from Nepal"
-      class="bgimage animate__animated animate__fadeInLeft"
-    />
-  </div>
+              <img
+                src="./images/Akash_Regmi.png"
+                alt="Akash Regmi - Web Developer from Nepal"
+                class="bgimage animate__animated animate__fadeInLeft"
+              />
+            </div>
           </div>
           <div class="content animate__animated animate__fadeInRight">
             <p>
@@ -263,12 +264,35 @@
                 <span>API</span>
                 <span>CSS</span>
               </div>
-              <a
+              <!-- <a
                 href="https://akash001-weather-app.netlify.app/"
                 target="_blank"
                 class="project-link"
                 >View Project <i class="fas fa-arrow-right"></i
-              ></a>
+              ></a> -->
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                "
+              >
+                <a
+                  href="https://akash001-weather-app.netlify.app/"
+                  target="_blank"
+                  class="project-link"
+                >
+                  View Project <i class="fas fa-arrow-right"></i>
+                </a>
+                <a
+                  href="https://github.com/AkashRegmi/Weather-App"
+                  target="_blank"
+                  class="github-link"
+                  style="color: white; margin-left: 10px"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
             </div>
           </div>
 
@@ -291,12 +315,35 @@
                 <span>HTML</span>
                 <span>CSS</span>
               </div>
-              <a
+              <!-- <a
                 href="https://akashworldinfo.netlify.app/"
                 target="_blank"
                 class="project-link"
                 >View Project <i class="fas fa-arrow-right"></i
-              ></a>
+              ></a> -->
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                "
+              >
+                <a
+                  href="https://akashworldinfo.netlify.app/"
+                  target="_blank"
+                  class="project-link"
+                >
+                  View Project <i class="fas fa-arrow-right"></i>
+                </a>
+                <a
+                  href="https://github.com/AkashRegmi/KnowYourCountry"
+                  target="_blank"
+                  class="github-link"
+                  style="color: white; margin-left: 10px"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
             </div>
           </div>
 
@@ -316,12 +363,35 @@
                 <span>Hooks</span>
                 <span>CSS</span>
               </div>
-              <a
+              <!-- <a
                 href="https://github.com/AkashRegmi/Speed-Tracker"
                 target="_blank"
                 class="project-link"
                 >View Project <i class="fas fa-arrow-right"></i
-              ></a>
+              ></a> -->
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                "
+              >
+                <a
+                  href="https://akashworldinfo.netlify.app/"
+                  target="_blank"
+                  class="project-link"
+                >
+                  View Project <i class="fas fa-arrow-right"></i>
+                </a>
+                <a
+                  href="https://github.com/AkashRegmi/Speed-Tracker"
+                  target="_blank"
+                  class="github-link"
+                  style="color: white; margin-left: 10px"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -361,7 +431,9 @@
                 <a href="https://x.com/home" target="_blank"
                   ><i class="fab fa-twitter"></i
                 ></a>
-                 <a href="https://www.instagram.com/akaashregmi" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.instagram.com/akaashregmi" target="_blank"
+                  ><i class="fab fa-instagram"></i
+                ></a>
               </div>
             </div>
           </div>
@@ -397,7 +469,6 @@
           document.querySelector(".info ul").classList.toggle("active");
         });
 
-     
       // Smooth scrolling for anchor links
       document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
         anchor.addEventListener("click", function (e) {
