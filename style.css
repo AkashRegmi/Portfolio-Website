@@ -511,13 +511,13 @@ h4 {
 }
 
 .html {
-  width: 100%;
-}
-.css {
   width: 80%;
 }
+.css {
+  width: 65%;
+}
 .js {
-  width: 70%;
+  width: 65%;
 }
 .react {
   width: 50%;
